@@ -6,32 +6,32 @@
     </title>
     <style>
         body {
-            background-Color: cyan
+            font-family: arial, sans-serif;
+            background-Color: cyan;
         }
 
         .T {
-            background-color: red;
-            display: flex;
+            background-color: aliceblue;
         }
 
-        .W {
+        .BT {
+            width: 80%;
             display: flex;
+            align-items: center;
+            flex-wrap: wrap;
         }
 
-        .R {
-            display: flex;
-        }
-
-        .B {
-            display: flex;
-        }
-
-        image {
-            width: 100%;
+        img {
+            width: 30%;
+            height: auto;
+            flex: 1 200px;
+            padding: 5px;
         }
 
         p {
-            width: 50%;
+            width: 70%;
+            flex: 2 200px;
+            padding: 5px;
         }
 
         h2 {
@@ -58,10 +58,8 @@
 </div>
 <hr>
 <h2 id="weisse_zwerge">Weisse Zwerge</h2>
-<div class="W">
-    <div class="I">
-        <img src="weisse_zwerg.jpg" alt="Weisser Zwerg">
-    </div>
+<div class="BT">
+    <img src="weisse_zwerg.jpg" alt="Weisser Zwerg">
     <p>Weisse Zwerge entstehen, wenn ein Roter Riese seine äusseren Schichten abstoßt. Er ist praktisch nur noch der
         übrigbleibende Kern.
         Die Kernfusion ist längst erloschen; das Leuchten entsteht durch innere Reibung und Hitze.
@@ -69,18 +67,17 @@
 </div>
 <hr>
 <h2 id="rote_zwerge">Rote Zwerge</h2>
-<div class="R">
+<div class="BT">
     <img src="roter_zwerg.jpg" alt="Roter Zwerg">
     <p>Rote Zwerge entstehen, wenn sich weisse Zwerge genug abgekühlt haben.
     </p>
 </div>
 <hr>
 <h2 id="braune_zwerge">Braune / Schwarze Zwerge</h2>
-<div class="B">
+<div class="BT">
     <img src="brauner_zwerg.jpg" alt="Brauner Zwerg">
     <p>Braune / schwarze Zwerge entstehen, wenn sich rote Zwerge genug abgekühlt haben.
-        Sie sind für uns praktisch nicht sichtbar, da sie so kalt sind, dass sie nicht mehr leuchten.
-    </p>
+        Sie sind für uns praktisch nicht sichtbar, da sie so kalt sind, dass sie nicht mehr leuchten.</p>
 </div>
 </body>
 </html>

@@ -6,12 +6,36 @@
     </title>
     <style>
         body {
-            background-Color: cyan
+            font-family: arial, sans-serif;
+            background-Color: cyan;
         }
 
         .T {
-            background-color: red;
+            background-color: aliceblue;
+        }
+
+        .BT {
+            width: 80%;
             display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        img {
+            width: 30%;
+            height: auto;
+            flex: 1 200px;
+            padding: 5px;
+        }
+
+        p {
+            width: 70%;
+            flex: 2 200px;
+            padding: 5px;
+        }
+
+        h2 {
+            width: 100%;
         }
     </style>
 </head>
@@ -34,10 +58,12 @@
 </div>
 <hr>
 <h2 id="schwarze_loecher">Schwarze Löcher</h2>
-<img width="100%" src="schwarzes_loch.jpg" alt="Schwarzes Loch">
-<p>Schwarze Löcher haben die Menschen schon immer fasziniert. Einsteins <b>Relativitätstheorie</b> hat sie vorausgesagt
-    und ihre Existenz ist unausweichlich.</p>
-
+<div class="BT">
+    <img width="100%" src="schwarzes_loch.jpg" alt="Schwarzes Loch">
+    <p>Schwarze Löcher haben die Menschen schon immer fasziniert. Einsteins <b>Relativitätstheorie</b> hat sie
+        vorausgesagt
+        und ihre Existenz ist unausweichlich.</p>
+</div>
 <h3>Bekannte schwarze Löcher </h3>
 <ul>
     <li>Sagittarius A Stern</li>
@@ -47,15 +73,20 @@
 </ul>
 <hr>
 <h2 id="quasare_jet">Quasar / Jet</h2>
-<img width="100%" src="black_hole.jpg" alt="Schwarzes Loch">
-<p>Quasare oder Jets sind Schwarze Löcher, bei denen so viel Materie <u>gleichzeitig</u> verschlungen wird, dass ein
-    Teil davon als <i>Plasmastrom</i> wieder zurückgeschleudert wird. </p>
+<div class="BT">
+    <img width="100%" src="black_hole.jpg" alt="Schwarzes Loch">
+    <p>Quasare oder Jets sind Schwarze Löcher, bei denen so viel Materie <u>gleichzeitig</u> verschlungen wird, dass ein
+        Teil davon als <i>Plasmastrom</i> wieder zurückgeschleudert wird. </p>
+</div>
 <hr>
 <h2 id="weisse_loecher">Weisse Löcher </h2>
-<img width="100%" src="weisses_loch.jpg" alt="Weisses Loch">
-<p>
-    Weisse Löcher sind Schwarze Löcher, die von der stark gekrümmten Raumzeit auseinander gerissen werden. Sie
-    entstehen (laut der Theorie) direkt nachdem das Schwarze Loch entsteht. Nur vergeht die Zeit in einem Schwarzen Loch
-    praktisch nicht, da es die Raumzeit ins Unendliche krümmt.</p>
+<div class="BT">
+    <img width="100%" src="weisses_loch.jpg" alt="Weisses Loch">
+    <p>
+        Weisse Löcher sind Schwarze Löcher, die von der stark gekrümmten Raumzeit auseinander gerissen werden. Sie
+        entstehen (laut der Theorie) direkt nachdem das Schwarze Loch entsteht. Nur vergeht die Zeit in einem Schwarzen
+        Loch
+        praktisch nicht, da es die Raumzeit ins Unendliche krümmt.</p>
+</div>
 </body>
 </html>
