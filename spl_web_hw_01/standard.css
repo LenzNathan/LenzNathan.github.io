@@ -5,7 +5,7 @@ body {
 
 ul {
     background-color: aliceblue;
-    padding: 1%;
+    padding: 1px;
 }
 
 p {
@@ -14,9 +14,9 @@ p {
     padding: 5px;
 }
 
-.T {
+.T, table, th, td, ul {
     background-color: aliceblue;
-    padding: 1%;
+    padding: 1px;
 }
 
 .BT {
@@ -35,4 +35,8 @@ img {
 
 h2 {
     width: 100%;
+}
+
+table, th, td, ul {
+    border: 2px solid blue;
 }
