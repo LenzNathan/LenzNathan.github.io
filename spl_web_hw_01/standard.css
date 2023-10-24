@@ -35,6 +35,10 @@ img {
 
 h2 {
     width: 100%;
+    background-color: aliceblue;
+    position: sticky;
+    top:0;
+    z-index: 3;
 }
 
 table, th, td, ul {
