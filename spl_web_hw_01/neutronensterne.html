@@ -2,6 +2,7 @@
 <html lang="de">
 <head>
     <link rel="stylesheet" href="standard.css">
+    <script src="standard.js"></script>
     <title>
         Neutronensterne
     </title>
@@ -26,7 +27,9 @@
 <hr>
 <h2 id="neutronensterne">Neutronensterne</h2>
 <div class="BT">
-    <img width="100%" src="22-07-28-neutronenstern.webp" alt="Neutronenstern">
+    <img class="list" src="22-07-28-neutronenstern.webp" alt="Neutronenstern" onclick="swapVisibility(1)">
+    <img src="22-07-28-neutronenstern.webp" alt="Neutronenstern" onclick="swapVisibility(1)"
+     class="popup" id="img-dropdown1" >
     <p>Neutronensterne sind die Reste von ehemaligen Sternen, die unter ihrem eigenen Gewicht kollabiert sind.
         Die Gravitation im Zentrum wird dabei so stark, dass die Elektronen mit den Protonen verschmelzen und Neutronen
         bilden.
@@ -36,7 +39,8 @@
 <hr>
 <h2 id="magnetare">Magnetare</h2>
 <div class="BT">
-    <img width="100%" src="Magnetar.jpg" alt="Magnetar">
+    <img class="list" src="Magnetar.jpg" alt="Magnetar " onclick="swapVisibility(2)">
+    <img src="Magnetar.jpg" alt="Magnetar" onclick="swapVisibility(2)" class="popup" id="img-dropdown2" >
     <p>Magnetare entstehen, wenn 2 Neutronensterne einander umkreisen und schließlich verschmelzen.
         Da der jetzige Stern 2 verschiedene Potenziale auf den unterschiedlichen Seiten hat, entsteht durch die Drehung
         ein
@@ -46,7 +50,8 @@
 <hr>
 <h2 id="pulsare">Pulsare</h2>
 <div class="BT">
-    <img width="100%" src="Pulsar.jpg" alt="Pulsar">
+    <img class="list" src="Pulsar.jpg" alt="Pulsar" onclick="swapVisibility(3)">
+    <img src="Pulsar.jpg" alt="Pulsar" onclick="swapVisibility(3)" class="popup" id="img-dropdown3" >
     <p>Ein Pulsar entsteht, wenn ein Neutronenstern entgegen seinem Magnetfeld rotiert.
         An den Polen werden dann Radiowellen ausgestoßen.
         Wenn die Erde in diesem Radiowellenstrahl liegt, können wir in regelmäßigen abständen ein kurzes Rauschen hören.
