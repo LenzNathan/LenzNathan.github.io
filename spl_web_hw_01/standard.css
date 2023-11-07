@@ -37,10 +37,17 @@ h2 {
     width: 100%;
     background-color: aliceblue;
     position: sticky;
-    top:0;
+    top: 1.55em;
     z-index: 3;
 }
 
 table, th, td, ul {
     border: 2px solid blue;
+}
+
+h1 {
+    background-color: deepskyblue;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
