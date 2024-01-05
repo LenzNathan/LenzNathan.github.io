@@ -1,64 +1,70 @@
 ﻿<!DOCTYPE html>
 <html lang="de">
 <head>
-    <link rel="stylesheet" href="standard.css">
-    <script src="standard.js"></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width = device-width, initial-scale=1">
+    <link href=".//css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <title>
         Schwarze Löcher
     </title>
 </head>
-<body>
-<h1>Schwarze Löcher </h1>
-<a href="index.html">zurück zu Himmelskörper</a>
-<h2 id="inhalt">Inhalt</h2>
-<div class="T">
-    <table>
+<body class="bg-info">
+<div class="text-center">
+    <h1 class="bg-primary">Schwarze Löcher</h1>
+    <a href="index.html" class="text-white">zurück zu Himmelskörper</a>
+    <h2 id="inhalt" class="text-bg-light">Inhalt</h2>
+    <table class="mx-auto border border-5 border-dark">
         <tr>
-            <td><a href="#schwarze_loecher">Schwarze Löcher</a></td>
+            <td><a href="#schwarze_loecher" class="text-white">Schwarze Löcher</a></td>
         </tr>
         <tr>
-            <td><a href="#quasare_jet">Quasare / Jets</a></td>
+            <td><a href="#quasare_jet" class="text-white">Quasare / Jets</a></td>
         </tr>
         <tr>
-            <td><a href="#weisse_loecher">Weisse Löcher</a></td>
+            <td><a href="#weisse_loecher" class="text-white">Weisse Löcher</a></td>
         </tr>
     </table>
-</div>
-<hr>
-<h2 id="schwarze_loecher">Schwarze Löcher</h2>
-<div class="BT">
-    <img class="list" src="schwarzes_loch.jpg" alt="Schwarzes Loch" onclick="swapVisibility(1)">
-    <img src="schwarzes_loch.jpg" alt="Schwarzes Loch" onclick="swapVisibility(1)"
-         class="popup" id="img-dropdown1" >
-    <p>Schwarze Löcher haben die Menschen schon immer fasziniert. Einsteins <b>Relativitätstheorie</b> hat sie
-        vorausgesagt
-        und ihre Existenz ist unausweichlich.</p>
-</div>
-<h3>Bekannte schwarze Löcher </h3>
-<ul>
-    <li>Sagittarius A Stern</li>
-    <li>Gaia BH1</li>
-    <li>Cyg X-1</li>
-    <li>und noch viele andere</li>
-</ul>
-<hr>
-<h2 id="quasare_jet">Quasar / Jet</h2>
-<div class="BT">
-    <img class="list" src="black_hole.jpg" alt="Schwarzes Loch" onclick="swapVisibility(2)">
-    <img src="black_hole.jpg" alt="Schwarzes Loch" onclick="swapVisibility(2)" class="popup" id="img-dropdown2" >
-    <p>Quasare oder Jets sind Schwarze Löcher, bei denen so viel Materie <u>gleichzeitig</u> verschlungen wird, dass ein
-        Teil davon als <i>Plasmastrom</i> wieder zurückgeschleudert wird. </p>
-</div>
-<hr>
-<h2 id="weisse_loecher">Weisse Löcher </h2>
-<div class="BT">
-    <img class="list" src="weisses_loch.jpg" alt="Weisses Loch" onclick="swapVisibility(3)">
-    <img src="weisses_loch.jpg" alt="Weisses Loch" onclick="swapVisibility(3)" class="popup" id="img-dropdown3" >
-    <p>
-        Weisse Löcher sind Schwarze Löcher, die von der stark gekrümmten Raumzeit auseinander gerissen werden. Sie
-        entstehen (laut der Theorie) direkt nachdem das Schwarze Loch entsteht. Nur vergeht die Zeit in einem Schwarzen
-        Loch
-        praktisch nicht, da es die Raumzeit ins Unendliche krümmt.</p>
+    <hr>
+    <h2 id="schwarze_loecher" class="text-bg-light">Schwarze Löcher</h2>
+    <div class="BT">
+        <img class="mw-100" src="schwarzes_loch.jpg" alt="Schwarzes Loch" onclick="swapVisibility(1)">
+        <p>Schwarze Löcher haben die Menschen schon immer fasziniert. Einsteins <b>Relativitätstheorie</b> hat sie
+            vorausgesagt
+            und ihre Existenz ist unausweichlich.</p>
+    </div>
+    <h3>Bekannte schwarze Löcher </h3>
+    <div class="d-flex justify-content-center">
+        <div class="border border-5 border-dark">
+            <ul>
+                <li>Sagittarius A Stern</li>
+                <li>Gaia BH1</li>
+                <li>Cyg X-1</li>
+                <li>und noch viele andere</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <h2 id="quasare_jet" class="text-bg-light">Quasar / Jet</h2>
+    <div class="BT">
+        <img class="mw-100" src="black_hole.jpg" alt="Schwarzes Loch" onclick="swapVisibility(2)">
+        <div class="mw-50">
+            <p>Quasare oder Jets sind Schwarze Löcher, bei denen so viel Materie <u>gleichzeitig</u> verschlungen wird,
+                dass ein Teil davon als <i>Plasmastrom</i> wieder zurückgeschleudert wird. </p>
+        </div>
+    </div>
+    <hr>
+    <h2 id="weisse_loecher" class="text-bg-light">Weisse Löcher </h2>
+    <div class="BT">
+        <img class="mw-100" src="weisses_loch.jpg" alt="Weisses Loch" onclick="swapVisibility(3)">
+        <p>
+            Weisse Löcher sind Schwarze Löcher, die von der stark gekrümmten Raumzeit auseinander gerissen werden. Sie
+            entstehen (laut der Theorie) direkt nachdem das Schwarze Loch entsteht. Nur vergeht die Zeit in einem
+            Schwarzen
+            Loch
+            praktisch nicht, da es die Raumzeit ins Unendliche krümmt.</p>
+    </div>
 </div>
 </body>
 </html>
