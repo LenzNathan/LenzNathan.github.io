@@ -1,0 +1,12 @@
+.sticky-top-1 {
+    position: sticky;
+    top: 48px;
+}
+
+p {
+    margin: 5px auto 5px auto;
+    padding: 10px;
+    border: blue 5px solid;
+    border-radius:var(--bs-border-radius-pill);
+    width: 50%;
+}

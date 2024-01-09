@@ -2,50 +2,51 @@
 <html lang="de">
 <head>
     <link href=".//css/bootstrap.min.css" rel="stylesheet">
+    <link href=".//css/extras.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
     <title>
         Zwerg-Sonnen
     </title>
 </head>
 <body class="bg-info">
 <div class="text-center">
-    <h1 class="bg-primary">Zwerg-Sonnen</h1>
+    <h1 class="bg-primary sticky-top">Zwerg-Sonnen</h1>
     <a href="index.html" class="text-white">zurück zu Himmelskörper</a>
-    <h2 id="inhalt" class="text-bg-light">Inhalt</h2>
-    <table class="mx-auto border border-5 border-dark">
-        <tr>
-            <td><a href="#weisse_zwerge" class="text-white">Weisse Zwerge</a></td>
-        </tr>
-        <tr>
-            <td><a href="#rote_zwerge" class="text-white">Rote Zwerge</a></td>
-        </tr>
-        <tr>
-            <td><a href="#braune_zwerge" class="text-white">Braune / Schwarze Zwerge</a></td>
-        </tr>
-    </table>
-<hr>
-<h2 id="weisse_zwerge" class="text-bg-light">Weisse Zwerge</h2>
-<div class="BT">
-    <img class="list" src="weisse_zwerg.jpg" alt="Weisser Zwerg" onclick="swapVisibility(1)">
-    <p>Weisse Zwerge entstehen, wenn ein Roter Riese seine äusseren Schichten abstoßt. Er ist praktisch nur noch der
-        übrigbleibende Kern.
-        Die Kernfusion ist längst erloschen; das Leuchten entsteht durch innere Reibung und Hitze.
-    </p>
-</div>
-<hr>
-<h2 id="rote_zwerge" class="text-bg-light">Rote Zwerge</h2>
-<div class="BT">
-    <img class="list" src="roter_zwerg.jpg" alt="Roter Zwerg" onclick="swapVisibility(2)">
-    <p>Rote Zwerge entstehen, wenn sich weisse Zwerge genug abgekühlt haben.
-    </p>
-</div>
-<hr>
-<h2 id="braune_zwerge" class="text-bg-light">Braune / Schwarze Zwerge</h2>
-<div class="BT">
-    <img class="list" src="brauner_zwerg.jpg" alt="Brauner Zwerg" onclick="swapVisibility(3)">
-    <p>Braune / schwarze Zwerge entstehen, wenn sich rote Zwerge genug abgekühlt haben.
-        Sie sind für uns praktisch nicht sichtbar, da sie so kalt sind, dass sie nicht mehr leuchten.</p>
-</div>
+    <h2 id="inhalt" class="text-bg-light sticky-top-1">Inhalt</h2>
+    <div class="mx-auto border border-5 border-dark m-1 rounded-pill w-75">
+        <table class="mx-auto">
+            <tr>
+                <td><a href="#weisse_zwerge" class="text-white">Weisse Zwerge</a></td>
+            </tr>
+            <tr>
+                <td><a href="#rote_zwerge" class="text-white">Rote Zwerge</a></td>
+            </tr>
+            <tr>
+                <td><a href="#braune_zwerge" class="text-white">Braune / Schwarze Zwerge</a></td>
+            </tr>
+        </table>
+    </div>
+    <h2 id="weisse_zwerge" class="text-bg-light sticky-top-1">Weisse Zwerge</h2>
+    <div class="BT">
+        <img src="weisse_zwerg.jpg" alt="Weisser Zwerg">
+        <p>Weisse Zwerge entstehen, wenn ein Roter Riese seine äusseren Schichten abstoßt. Er ist praktisch nur noch der
+            übrigbleibende Kern.
+            Die Kernfusion ist längst erloschen; das Leuchten entsteht durch innere Reibung und Hitze.
+        </p>
+    </div>
+    <h2 id="rote_zwerge" class="text-bg-light sticky-top-1">Rote Zwerge</h2>
+    <div class="BT">
+        <img src="roter_zwerg.jpg" alt="Roter Zwerg">
+        <p>Rote Zwerge entstehen, wenn sich weisse Zwerge genug abgekühlt haben.
+        </p>
+    </div>
+    <h2 id="braune_zwerge" class="text-bg-light sticky-top-1">Braune / Schwarze Zwerge</h2>
+    <div class="BT">
+        <img src="brauner_zwerg.jpg" alt="Brauner Zwerg">
+        <p>Braune / schwarze Zwerge entstehen, wenn sich rote Zwerge genug abgekühlt haben.
+            Sie sind für uns praktisch nicht sichtbar, da sie so kalt sind, dass sie nicht mehr leuchten.</p>
+    </div>
 </div>
 </body>
 </html>
